@@ -120,7 +120,7 @@ const skills = [
   </a>
 
   <a
-    href="/./src/resume/UmarFrontendResume.pdf"
+    href="../public/resume/UmarFrontendResume.pdf"
     download
     className="px-8 py-4 rounded-2xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all flex items-center gap-2 font-semibold"
   >
