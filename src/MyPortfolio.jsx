@@ -11,7 +11,9 @@ import {
 } from "lucide-react";
 
 import { FaGithub } from "react-icons/fa";
+  
 
+import Resumepdf from "./assets/UmarFrontendResume.pdf"
 export default function MyPortfolio() {
 const skills = [
   { name: "React.js", category: "Frontend" },
@@ -128,7 +130,7 @@ const skills = [
   </a>
 
   <a
-    href="https://github.com/umarq093"
+    href={Resumepdf}
     target="_blank"
     rel="noopener noreferrer"
     className="px-8 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 hover:text-cyan-400 transition-all flex items-center gap-2 font-semibold"
